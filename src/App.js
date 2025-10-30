@@ -1,11 +1,10 @@
-import logo from './logo.svg';
+import Body from './Components/Body';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Netflix GPT</h1>
-      <p>Your personalized movie recommendations await!</p>
+      <Body/>
     </div>
   );
 }
